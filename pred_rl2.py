@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('kernel_poly.sav', 'rb'))
+model = pickle.load(open('kernel_rbf.sav', 'rb'))
 
 st.title('Prediksi Total Produksi Rumput Laut Eucheuma Cottonii di Desa Lontar')
 
